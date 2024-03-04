@@ -148,8 +148,9 @@ nav a:hover {
   .swiper {
     width: 70%;
     height: 200px auto;
+  
   }
-
+  
   .swiper-slide {
     text-align: center;
     font-size: 18px;
@@ -185,6 +186,8 @@ nav a:hover {
     padding: 10px;
     margin: 0;
   }
+
+ 
 
 
 

@@ -63,136 +63,14 @@ nav a:hover {
     height: 800px auto;
 }
 
-.container {
+.container{
     box-shadow: 10px 10px 5px aqua;
     width: 600px;
-    height: auto;
+    height: 200px auto;
     background-color: azure;
     align-items: center;
 }
 
-.Murtijugador {
-    box-shadow: 10px 10px 5px aqua;
-    width: 600px;
-    height: auto;
-    background-color: azure;
-    align-items: center;
-}
-
-
-
-
-.wrapper {
-    padding: 10px 10%;
-  }
-  
-  #card-area {
-    padding: 50px 0;
-  }
-  
-  .box-area {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
-  }
-  
-  .box {
-    border-radius: 10px;
-    position: relative;
-    overflow: hidden;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
-  }
-  
-  .box .pedro {
-    width: 100%;
-    border-radius: 10px;
-    display: block;
-    transition: transform 0.5s;
-  }
-  
-  .overlay {
-    height: 0;
-    width: 100%;
-    background: linear-gradient(transparent, #1c1c1c);
-    border-radius: 10px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0 40px;
-    text-align: center; /* Center text within overlay */
-    font-size: 14px;
-    transition: height 0.5s;
-  }
-  
-  .overlay .titulo {
-    font-weight: 500;
-    margin-bottom: 5px;
-    margin-top: 0; /* Remove margin-top to avoid unexpected positioning */
-    font-family: bebas neue;
-    font-size: 30px;
-    letter-spacing: 2px;
-  }
-  
-  .titulo{
-    color: white;
-  }
-  .box:hover .pedro {
-    transform: scale(1.1); /* Adjust scaling factor for desired hover effect */
-  }
-  
-  .box:hover .overlay {
-    height: 100%;
-    opacity: 0.8; /* Add opacity for semi-transparent overlay on hover */
-  }
-  
-
-  
-
-.card-container1 {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 100px;
-}
-
-.card {
-    width: 325px;
-    background-color: #f0f0f0;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-    margin: 20px;
-}
-
-.card img {
-    width: 100%;
-    height: auto;
-}
-
-.card-container1 {
-    padding: 16px;
-}
-
-.card-container1 h3 {
-    font-size: 28px;
-    margin-bottom: 8px;
-}
-
-.card-container1 p {
-    color: #666;
-    font-size: 1.3rem;
-    line-height: 1.3;
-}
-
-.CajaPersonajes{
-    display: flex;
-}
 
 
 
