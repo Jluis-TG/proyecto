@@ -1,11 +1,23 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-body{
-    background-color:grey;
-}
-header{
+
+
+body {
+    background-color: grey;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+        position: relative;
+        height: 100%;
+      }
+
+header {
     display: flex;
     height: 75px;
     background-color: blue;
@@ -13,36 +25,33 @@ header{
     align-items: center;
     padding: 10px;
 }
-.logo{
+
+.logo {
     display: flex;
 }
+
 .logo img {
     height: 50px;
-    margin-right: 10px  ;
+    margin-right: 10px;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
-nav a{
+nav a {
     font-weight: 600;
     padding-right: 10px;
 }
 
-nav a:hover{
-    color:aqua;
+nav a:hover {
+    color: aqua;
 }
 
-@media(max-width: 700px){
-    header{
-        flex-direction: column;
-    }
-    nav{
-        padding: 10px 0px;
-    }
-}
+
+
+
 .image1 {
     width: 100%;
     height: 800px auto;
@@ -57,32 +66,41 @@ nav a:hover{
 }
 
 
-  /* slider */
-
-.swiper {
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    height: calc((100% - 30px) / 2) !important;
-
-   
+.card-container1 {
     display: flex;
     justify-content: center;
-    align-items: center;
-  }
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
 
-  /* slider*/
+.card {
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
 
+.card img {
+    width: 100%;
+    height: auto;
+}
 
+.card-container1 {
+    padding: 16px;
+}
 
+.card-container1 h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
 
+.card-container1 p {
+    color: #666;
+    font-size: 1.3rem;
+    line-height: 1.3;
+}
 
 
 
@@ -173,5 +191,15 @@ footer{
     margin: 0px 5px;
 }
 
+@media (max-width: 700px){
+    .footernav ul{
+        flex-direction: column;
+    }
 
+    .footernav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
 
